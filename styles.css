@@ -2,8 +2,29 @@
     font-family: "Courier New", monospace;
 }
 
+body {
+    padding: 0 20px;
+}
+
 h1 {
     font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 5px;
+    background: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    filter: invert(1);
 }
 
 .main-recipes {
